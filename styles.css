@@ -7,7 +7,7 @@
 }
 
 body {
-	background-color: color-mix(in hsl shorter hue, #0d0c0c 65%, #f21b1b 35%);
+	background-image: url(images/hauntbg.jpeg);
 }
 
 h1 {
@@ -48,10 +48,6 @@ nav li a {
     padding: 5%;
 	opacity: inherit;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-}
-
-nav li:hover {
-    
 }
 
 main p {
