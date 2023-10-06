@@ -17,38 +17,43 @@ h1 {
 	font-family: "Baskerville", "Palatino Linotype", "Palatino", "Century Schoolbook L", "Times New Roman", "serif";
 }
 
-section {
-	background-color: #44AAA5;
-
-}
-
-nav {
-    background-color: #8e94ba;
-    display: inline-block;
-    border: 2px solid #7f83a2;
-    box-shadow: 1px 1px 2px #4c4f67;
-    width: 100%;
-}
-
-nav ul {
-    color: #426AC3;
-    list-style-type: none;
-    text-align: center;
-}
-
-nav li {
-    color: #F5B61A;
-    display: inline;
-}
-
-nav li a {
-    color: #cfd5ff;
-	font-weight: bolder;
-    text-decoration: none;
-    padding: 5%;
-	opacity: inherit;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-}
+.menus {
+	background-color: #11181e;
+	grid-area: menus;
+	display: block;
+	list-style-type: none;
+	text-decoration: none;
+	flex-direction: column;
+	justify-content: start;
+  }
+  
+  .menus div {
+	  display: inline-block;
+	  font-size: 1.2em;
+	  width: 15%;
+	  padding: 0% 0%;
+	  padding-top: .5em;
+	  padding-left: 1%;
+	  margin: auto;
+  }
+  
+  .box1 {
+	  color: #fff;
+  }
+  
+  .menus nav{
+	  width: 100%;
+  }
+  
+  nav li a{
+	  color: #fff;
+	  text-decoration: none;
+	  list-style-type: none;
+  }
+  
+  section {
+	  color: #e4f2ea;
+  }
 
 main p {
 	padding: 0 2%;
