@@ -16,7 +16,7 @@ font-family: 'Nosifer', sans-serif;
 }
 
 body {
-	background-image: url(images/hauntbg.jpeg);
+	background-image: url(images/skull-1867707_1280.jpg);
 }
 
 h1 {
@@ -27,26 +27,26 @@ h1 {
 }
 
 .menus {
-	background-image: url(images/hauntbg.jpeg);
-	background-colo: #a15b5b;
-	grid-area: menus;
+	background-image: url(images/skull-1867707_1280.jpg);	grid-area: menus;
 	display:flow-root;
 	list-style-type:none;
 	text-decoration: none;
 	flex-direction: column;
 	justify-content: start;
-	float: right;
-  }
+	text-align: center;
+}
   
   .menus div {
 	  display: inline-flex;
 	  font-size: 1.3em;
 	  widt: 15%;
-	  padding: 0% 0%;
+	  paddin: 1% 1%;
 	  padding-top: .5em;
 	  padding-left: 1%;
 	  padding-right: 1.2em;
 	  margin: auto;
+	  background-colo: #747272;
+
   }
   
   .box1 {
