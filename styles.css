@@ -15,19 +15,21 @@ font-family: 'Nosifer', sans-serif;
     border: 0;
 }
 
-body {
+bod {
 	background-image: url(images/skull-1867707_1280.jpg);
 }
 
 h1 {
-    background-color:#305296;
+	background-image: url(images/skull-1867707_1280.jpg);
+    background-coor:#305296;
     text-align: center;
-    color: #cfd5ff;
-	font-family: "Baskerville", "Palatino Linotype", "Palatino", "Century Schoolbook L", "Times New Roman", "serif";
+    color: #ffffff;
+	font-family: 'Nosifer', sans-serif; 
 }
 
 .menus {
-	background-image: url(images/skull-1867707_1280.jpg);	grid-area: menus;
+	background-image: url(images/skull-1867707_1280.jpg);	
+	grid-area: menus;
 	display:flow-root;
 	list-style-type:none;
 	text-decoration: none;
@@ -77,14 +79,31 @@ main p {
 	border-radius: 15px;
 }
 
- {
-    float: left;
+.iimg {
+	background-image: url(images/skull-1867707_1280.jpg);	
+}
+
+.himg {
+	background-image: url(images/hands-984032_1280.jpg);	
+}
+
+ .story {
+    color: white;
 }
 footer {
     clear: left;
 	margin: auto;
+	background-color: #111;
 }
 
+h4, h5, h6 {
+	background-color: #111;
+	color: white;
+}
+
+h3 {
+	font-family: 'Abril Fatface', serif;
+}
 
 table {
 	margin: 0 auto;
