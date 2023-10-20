@@ -19,13 +19,25 @@ bod {
 	background-image: url(images/skull-1867707_1280.jpg);
 }
 
+.H, p {
+	background-color: whitesmoke;
+	color: black;
+}
+
+.story h2{
+	color: black;
+	text-align: left;
+	padding-left: 3em;
+}
+
 h1, h3 {
 	background-image: url(images/skull-1867707_1280.jpg);
-    background-coor:#305296;
+    background-color:#305296;
     text-align: center;
     color: #ffffff;
 	font-family: 'Nosifer', sans-serif; 
 }
+
 
 .calendar {
 	display: grid;
@@ -97,6 +109,10 @@ main p {
 	font-size: 1.2em;
 	padding-top: auto;
 	border-radius: 15px;
+}
+
+.story {
+	color: #111;
 }
 
 .iimg {
